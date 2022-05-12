@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Photo Effects</title>
+</head>
+<body>
+    <main>
+        <section id="imageContainer">
+            <canvas id="canvas"></canvas>
+        </section>
+        <section id="editor">
+            <div id="chooseFile">
+                <label for="uploader">Select File:</label> 
+                <input type="file" id="uploader" />
+            </div>
+            <div id="buttonWrapper">
+                <button>Greyscale</button>
+                <button>SepiaEffect</button>
+                <button>Invert</button>
+                <button>RGB-RBG</button>
+                <button>RGB-BGR</button>
+                <button>RGB-GBR</button>
+                <button>RGB-GRB</button>
+                <div id="clearDownload">
+                    <button id="clear">Clear</button>
+                    <button id="download">Download</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
